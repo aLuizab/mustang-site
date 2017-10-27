@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'Collegiate';
+	src: url("../_fonts/Collegiate_Normal.TTF");
+}
+@font-face{
+	font-family: 'beer';
+	src: url("../_fonts/beer_money.ttf");
+}
+@font-face{
+	font-family: 'century';
+	src: url("../_fonts/century-gothic-bold.ttf");
+}
+
+header#cabecalho h1{
+	font-family: 'beer', sans-serif;
+	font-size: 30pt;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+	padding: 0px;
+	margin-bottom: 0px;
+	position: absolute;
+	top: 470px;
+	left: 475px;
+}
+header#cabecalho img{
+	position: absolute;
+	top: 100px;
+	left: 750px;
+	
+
+	
+} 
+
+nav#menu {
+	display: block;
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -18px;
+	left: 250px;
+}
+
+nav#menu li{
+	display: inline-block;
+	font-family: 'beer', sans-serif;
+	font-size: 25pt;
+	background-color:  rgba(255, 232, 28, .5);
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s;
+}
+nav#menu li:hover{
+    background-color: rgba(96, 96, 96, .5);
+    }
+
+nav#menu h1{
+	display: none;
+
+}
+nav#menu h3{
+	font-family: 'beer', sans-serif;
+	font-size: 30pt;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+	padding: 0px;
+	margin-bottom: 0px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+
+nav#menu a{
+	color: #000000;
+	text-decoration: none;
+
+}
+nav#menu a:hover {
+	color: #FFE81C;
+}
+
+
+nav#menu li ul{
+	display: none;
+
+}
+nav#Menu ul li a:hover{
+	background: @066;
+	color: #fff;
+}
+nav#menu li:hover ul{
+	display: block;
+	position: relative;
+}
+nav#menu li:hover li{
+	float: none;
+	font-size: 12px;
+}
+
+header#cabecalho h2{
+	display: 'inline-block';
+	font-family: 'Collegiate', sans-serif;
+	font-size: 30pt;
+	background-color: rgba(255, 232, 28, .7);
+	color: #FF0000;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+	padding: 10px;
+	margin: 2px;
+	position: absolute;
+	top: 600px;
+	left: 750px;
+	transition: background-color 1s;
+
+}
+header#cabecalho h2:hover{
+    background-color: rgba(96, 96, 96, 0.6);
+    }
+
+
+header#cabecalho a{
+	color: #000000;
+	text-decoration: none;
+
+}
+header#cabecalho a:hover {
+	color: #FFE81C;
+}
+
+footer#rodape {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	
+
+}
+footer#rodape p {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'NewFont';
+    font-size: 17px;
+}
+
